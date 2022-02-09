@@ -1,0 +1,49 @@
+table{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:2px solid;
+
+  }
+
+table td{
+
+   background-color:bga(150,14,76) ;
+   margin:10px;
+   padding:10px;
+   height:40px;
+   font-size:20px;
+
+  }
+table tr{
+    height:40px;
+}
+.Form{
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.link{
+   display: flex;
+   justify-content: flex-end;
+   
+}
+.view{
+    margin:10px;
+    font-size:20px;
+}
+input{
+    border-radius:6px;
+    font-size: 18px;
+    height:30px;
+    width:250px;
+}
+.btn_m{
+    border-radius:6px;
+    background-color:rgb(34, 231, 60) ;
+    color:white;
+    padding:10px;
+    font-size:25px;
+}

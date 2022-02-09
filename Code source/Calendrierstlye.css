@@ -1,0 +1,122 @@
+body{
+    background-image: url(ensa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    top:0px;
+    left: 0px;
+    position:fixed;
+    width: 100%;
+    background-color: rgb(68, 64, 64);
+    padding:15px;
+    display: inline-flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(228, 241, 245);
+    font-weight: 20px;
+    text-shadow: 1px 2px blue;
+    
+}
+.header a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.header .login a:hover{
+    background-color: rgb(207, 188, 188);
+    border-radius: 4px;
+}
+.header .login{
+   margin-left:450px;
+   padding: 10px;
+}
+.header .ense{
+    padding: 10px;
+}
+.selection,.date{
+    border-radius:6px;
+    height:30px;
+    width:250px;
+    font-size:18px;
+}
+th{
+    font-size: x-large;
+    text-align: left;
+    padding-left: 10px;
+}
+.btn_a{
+    border-radius:6px;
+    background-color:rgb(19, 209, 243) ;
+    color:white;
+    font-size: 20px;
+    width: 150px;
+    padding: 8px 30px;
+    text-decoration:none;
+}
+h2{
+    text-decoration: underline;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(238, 231, 227);
+    font-weight: 20px;
+    text-shadow: 1px 2px rgb(23, 24, 19);
+    font-size: xx-large;
+    
+    
+}
+
+table{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:2px solid;
+    background-color: whitesmoke;
+
+  }
+
+table td{
+
+   background-color:bga(150,14,76) ;
+   margin:10px;
+   padding:10px;
+   height:40px;
+
+  }
+table tr{
+/* les borders juste pour les lignes */
+}
+.Form{
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+   
+}
+.link{
+   display: flex;
+   justify-content: flex-end;
+   
+}
+.view{
+    margin:10px;
+    font-size:20px;
+}
+.btn_m{
+    border-radius:6px;
+    background-color:rgb(34, 231, 60) ;
+    color:white;
+    padding:8px;
+    text-decoration:none;
+}
+.btn_d{
+    border-radius:6px;
+    background-color:rgb(255, 23,6) ;
+    color:white;
+    padding:8px;
+    text-decoration:none;
+}
+.titre{
+    text-align:center;
+    padding:10px;
+    font-size:6ve;
+}

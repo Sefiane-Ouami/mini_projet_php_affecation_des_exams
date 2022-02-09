@@ -1,0 +1,58 @@
+
+        table{
+            padding: 20px;
+	        border-radius: 10px;
+	        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border:2px solid;
+           
+ 
+          }
+          table td{
+            
+            background-color:rbg(150,14,76) ;
+            margin:10px;
+            padding:10px;
+            height:40px;
+
+            }
+       
+        
+       .Form{
+             min-height: 100vh;
+	         display: flex;
+	         justify-content: center;
+	         align-items: center;
+	         flex-direction: column;
+        }
+        .link{
+	       display: flex;
+	       justify-content: flex-end;
+           
+        }
+        .view{
+            margin:10px;
+            font-size:20px;
+        }
+        .btn_m{
+            border-radius:6px;
+            background-color:rgb(34, 231, 60) ;
+            color:white;
+            padding:8px;
+            text-decoration:none;
+        }
+        .btn_d{
+            border-radius:6px;
+            background-color:rgb(255, 23,6) ;
+            color:white;
+            padding:8px;
+            text-decoration:none;
+        }
+        .liste{
+            text-align:center;
+            padding:10px;
+            font-size:6ve;
+        }
+        input{
+            font-size: 18px;
+        }
+        
